@@ -163,9 +163,9 @@ var process = () => {
   width = canvas.width = innerWidth
   height = canvas.height = innerHeight
 
-  numberElementCollector.moveAll()
+  /*numberElementCollector.moveAll()
   draw()
 
-  requestAnimationFrame(process)
+  requestAnimationFrame(process)*/
 }
 process()
