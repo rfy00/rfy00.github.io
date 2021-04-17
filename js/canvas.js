@@ -1,4 +1,4 @@
-var canvas = document.getElementById("canvas")
+/*var canvas = document.getElementById("canvas")
 var ctx = canvas.getContext("2d")
 
 var width = 0
@@ -14,7 +14,7 @@ var aZeroOrOne = []
 
 
 
-/*var random = (min, max) => {
+var random = (min, max) => {
   if(typeof max === 'undefined') {
     return Math.random() * (min[1] - min[0]) + min[0]
   } else {
